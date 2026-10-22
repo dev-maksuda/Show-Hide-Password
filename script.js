@@ -5,3 +5,12 @@ let show = document.getElementById("show");
 let hide = document.getElementById("hide");
 
 
+show.addEventListener("click", () => {
+
+    inputField.setAttribute('type', 'text');
+
+    hide.style.display = "inline-block";
+    show.style.display = "none";
+
+})
+
