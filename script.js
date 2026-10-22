@@ -14,3 +14,11 @@ show.addEventListener("click", () => {
 
 })
 
+hide.addEventListener("click", () => {
+
+    inputField.setAttribute('type', 'password');
+
+    show.style.display = "inline-block";
+    hide.style.display = "none";
+
+})
